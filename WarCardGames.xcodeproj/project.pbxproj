@@ -12,6 +12,12 @@
 		84776DD02333F25100CB0A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84776DCE2333F25100CB0A74 /* Main.storyboard */; };
 		84776DD22333F25600CB0A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84776DD12333F25600CB0A74 /* Assets.xcassets */; };
 		84776DD52333F25600CB0A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84776DD32333F25600CB0A74 /* LaunchScreen.storyboard */; };
+		84A4B6DB233403A500D5476D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B6D3233403A400D5476D /* ViewController.swift */; };
+		84A4B6DC233403A500D5476D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A4B6D4233403A400D5476D /* Assets.xcassets */; };
+		84A4B6DD233403A500D5476D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4B6D5233403A400D5476D /* LaunchScreen.storyboard */; };
+		84A4B6DE233403A500D5476D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4B6D7233403A500D5476D /* Main.storyboard */; };
+		84A4B6DF233403A500D5476D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B6D9233403A500D5476D /* AppDelegate.swift */; };
+		84A4B6E0233403A500D5476D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A4B6DA233403A500D5476D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,13 @@
 		84776DD12333F25600CB0A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84776DD42333F25600CB0A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84776DD62333F25600CB0A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A4B6CF233403A400D5476D /* WarCardGames.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WarCardGames.xcodeproj; sourceTree = "<group>"; };
+		84A4B6D3233403A400D5476D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A4B6D4233403A400D5476D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A4B6D6233403A500D5476D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A4B6D8233403A500D5476D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A4B6D9233403A500D5476D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A4B6DA233403A500D5476D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				84776DC92333F25100CB0A74 /* WarCardGames */,
+				84A4B6CE233403A400D5476D /* WarCardGames */,
 				84776DC82333F25100CB0A74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +74,33 @@
 				84776DD12333F25600CB0A74 /* Assets.xcassets */,
 				84776DD32333F25600CB0A74 /* LaunchScreen.storyboard */,
 				84776DD62333F25600CB0A74 /* Info.plist */,
+			);
+			path = WarCardGames;
+			sourceTree = "<group>";
+		};
+		84A4B6CE233403A400D5476D /* WarCardGames */ = {
+			isa = PBXGroup;
+			children = (
+				84A4B6CF233403A400D5476D /* WarCardGames.xcodeproj */,
+				84A4B6D2233403A400D5476D /* WarCardGames */,
+			);
+			name = WarCardGames;
+			sourceTree = "<group>";
+		};
+		84A4B6D0233403A400D5476D /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A4B6D2233403A400D5476D /* WarCardGames */ = {
+			isa = PBXGroup;
+			children = (
+				84A4B6D3233403A400D5476D /* ViewController.swift */,
+				84A4B6D4233403A400D5476D /* Assets.xcassets */,
+				84A4B6D5233403A400D5476D /* LaunchScreen.storyboard */,
+				84A4B6D7233403A500D5476D /* Main.storyboard */,
+				84A4B6D9233403A500D5476D /* AppDelegate.swift */,
+				84A4B6DA233403A500D5476D /* Info.plist */,
 			);
 			path = WarCardGames;
 			sourceTree = "<group>";
@@ -110,6 +151,12 @@
 			mainGroup = 84776DBE2333F25100CB0A74;
 			productRefGroup = 84776DC82333F25100CB0A74 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84A4B6D0233403A400D5476D /* Products */;
+					ProjectRef = 84A4B6CF233403A400D5476D /* WarCardGames.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				84776DC62333F25100CB0A74 /* WarCardGames */,
@@ -124,7 +171,11 @@
 			files = (
 				84776DD52333F25600CB0A74 /* LaunchScreen.storyboard in Resources */,
 				84776DD22333F25600CB0A74 /* Assets.xcassets in Resources */,
+				84A4B6DC233403A500D5476D /* Assets.xcassets in Resources */,
+				84A4B6DE233403A500D5476D /* Main.storyboard in Resources */,
+				84A4B6DD233403A500D5476D /* LaunchScreen.storyboard in Resources */,
 				84776DD02333F25100CB0A74 /* Main.storyboard in Resources */,
+				84A4B6E0233403A500D5476D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A4B6DF233403A500D5476D /* AppDelegate.swift in Sources */,
+				84A4B6DB233403A500D5476D /* ViewController.swift in Sources */,
 				84776DCD2333F25100CB0A74 /* ViewController.swift in Sources */,
 				84776DCB2333F25100CB0A74 /* AppDelegate.swift in Sources */,
 			);
@@ -157,6 +210,22 @@
 				84776DD42333F25600CB0A74 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84A4B6D5233403A400D5476D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A4B6D6233403A500D5476D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84A4B6D7233403A500D5476D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A4B6D8233403A500D5476D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

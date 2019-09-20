@@ -44,17 +44,57 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="v6Z-a7-zP3" userLabel="Plater Score Stack View">
+                                <rect key="frame" x="40" y="714" width="79.5" height="108"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52L-tn-vUK">
+                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaQ-zu-v5U">
+                                        <rect key="frame" x="0.0" y="36" width="79.5" height="72"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="HqH-hH-SyL" userLabel="CPU View">
+                                <rect key="frame" x="310" y="711.5" width="64" height="110.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CPU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZH-oa-8ir">
+                                        <rect key="frame" x="0.0" y="0.0" width="64" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mc0-3w-auG">
+                                        <rect key="frame" x="27" y="38.5" width="37" height="72"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7KJ-PW-57g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="29y-1J-7fy"/>
                             <constraint firstItem="7KJ-PW-57g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3fC-j5-BGW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v6Z-a7-zP3" secondAttribute="bottom" constant="40" id="5vH-pL-2Za"/>
                             <constraint firstItem="e8n-UK-Vxa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="AVl-bB-fOU"/>
                             <constraint firstItem="e8n-UK-Vxa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HQR-bD-7Uk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HqH-hH-SyL" secondAttribute="bottom" constant="40" id="PHZ-dW-7o9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HqH-hH-SyL" secondAttribute="bottom" constant="40" id="WYY-Jk-XJ6"/>
                             <constraint firstItem="ZA3-63-gmI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WyT-rP-TKm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZA3-63-gmI" secondAttribute="trailing" id="ZkF-yQ-iUm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HqH-hH-SyL" secondAttribute="bottom" constant="40" id="aZh-DG-NrN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HqH-hH-SyL" secondAttribute="trailing" constant="40" id="cG5-MB-24p"/>
                             <constraint firstItem="ZA3-63-gmI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ki0-f8-LEX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZA3-63-gmI" secondAttribute="bottom" id="n6p-uG-2qK"/>
+                            <constraint firstItem="v6Z-a7-zP3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="pBT-Me-D8x"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
